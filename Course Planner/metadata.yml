@@ -1,0 +1,12 @@
+---
+:id: 96648523
+:submitters:
+- :name: Hubert Leo
+  :email: leo.hubert3@gmail.com
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-10-28 02:55:17.309417000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-10-27 19:55:17.309417000 Z
+:status: processed
+:score: 20.0

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fixed-top mt-5">
+      <div class="container">
+        <h1>Covid Statistics</h1>
+        <form class="mt-4">
+          <label for="countries">Select a country:</label>
+          <select
+            name="country"
+            id="countries"
+            class="form-control form-control-lg"
+          >
+            <option value="us">United States of America</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div class="fixed-bottom mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md h3 my-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Confirmed</h5>
+                <p id="confirmed" class="card-text">
+                  <img src="https://www.countryflags.io/us/flat/32.png" />
+                  43,000,00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md h3 my-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Active</h5>
+                <p id="active" class="card-text">
+                  <img src="https://www.countryflags.io/us/flat/32.png" />
+                  9,000,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md h3 my-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Recovered</h5>
+                <p id="recovered" class="card-text">
+                  <img src="https://www.countryflags.io/us/flat/32.png" />
+                  33,000,000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
